@@ -118,7 +118,7 @@ public class AppliDessin extends Application {
     public void changeCouleurLeDernierCercle(){
         Circle c = (Circle) this.boite.getChildren().get(this.boite.getChildren().size()-1);
         c.setFill(new Color(Math.random(), Math.random(), Math.random(), 1.0));
-    }(int)(Math.random() * 5)
+    }
 
     /**
      * Cette méthode change la couleur du dernier cercle dessiné
