@@ -82,13 +82,13 @@ public class AppliCalc extends Application{
         Double un = Double.parseDouble(this.tf1.getText());
         Double deux = Double.parseDouble(this.tf2.getText());
         Double res = un * deux;
-        this.resultat.setText(""+res);
+        this.resultat.setText("Resultat : "+res);
     }
 
     public void diviser(){
         Double un = Double.parseDouble(this.tf1.getText());
         Double deux = Double.parseDouble(this.tf2.getText());
         Double res = un / deux;
-        this.resultat.setText(""+res);
+        this.resultat.setText("Resultat : "+res);
     }
 }
